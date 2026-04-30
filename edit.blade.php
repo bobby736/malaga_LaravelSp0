@@ -25,17 +25,17 @@
             
             <div>
                 <label><strong>First Name:</strong></label>
-                <input type="text" value="Joshua Carl">
+                <input type="text" value="Bobby Jr">
             </div>
             
             <div>
                 <label><strong>Last Name:</strong></label>
-                <input type="text" value="Mendoza">
+                <input type="text" value="Malaga">
             </div>
             
             <div class="w-full" style="grid-column: 1 / -1;">
                 <label><strong>Email Address:</strong></label>
-                <input type="email" value="joshua.carl@email.com">
+                <input type="email" value="malagabobbyjr@gmail.com">
             </div>
             
             <div>
@@ -59,12 +59,12 @@
             
             <div class="w-full" style="grid-column: 1 / -1;">
                 <label><strong>Phone Number:</strong></label>
-                <input type="text" value="0912 345 6789">
+                <input type="text" value="0915 350 0289">
             </div>
             
             <div class="w-full" style="grid-column: 1 / -1;">
                 <label><strong>Address:</strong></label>
-                <textarea rows="3">123 Main Street, Barangay San Jose, Quezon City, Metro Manila, Philippines</textarea>
+                <textarea rows="3">Barangay lunga-og, santo tomas, davao del norte, Davao, Philippines</textarea>
             </div>
         </div>
         
