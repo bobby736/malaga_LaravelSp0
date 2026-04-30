@@ -19,8 +19,8 @@
                 JM
             </div>
             <div>
-                <h2 style="margin: 0;">Joshua Carl Mendoza</h2>
-                <p style="margin: 5px 0;">Student ID: 2024-001</p>
+                <h2 style="margin: 0;">Bobby Malaga Jr</h2>
+                <p style="margin: 5px 0;">Student ID: 2020-123</p>
                 <span>BSIT - 2nd Year</span>
             </div>
         </div>
@@ -30,9 +30,9 @@
         <div>
             <h4 style="border-bottom: 2px solid #ff6600; padding-bottom: 5px;">Personal Information</h4>
             
-            <p><strong>Email:</strong> joshua.carl@email.com</p>
-            <p><strong>Phone:</strong> 0912 345 6789</p>
-            <p><strong>Address:</strong> 123 Main Street, Barangay San Jose, Quezon City, Metro Manila, Philippines</p>
+            <p><strong>Email:</strong> malagabobbyjr@gmail.com</p>
+            <p><strong>Phone:</strong> 0915 350 0289</p>
+            <p><strong>Address:</strong> barangay lunga-og, Santo tomas, davao del norte, Davao, Philippines</p>
         </div>
         
         <div>
