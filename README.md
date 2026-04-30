@@ -57,10 +57,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# Laravel_Skeleton_Mahipus
-# Laravel_Skeleton_Mahipus
-# Laravel_Skeleton_Mahipus
-# Mahipus_LaravelPortal
-# Mahipus_LaravelPortal
-# Laravel_Skeleton_Mahipus
-# Laravel_Skeleton_Mahipus
+# Laravel_Sp_Malaga
+# Laravel_Sp_Malaga
+# Laravel_Sp_Malaga
+# Malaga_LaravelPortal
+# Malaga_LaravelPortal
+# Laravel_Skeleton_Malaga
+# Laravel_Skeleton_Malaga
