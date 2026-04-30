@@ -20,7 +20,7 @@
         <div class="grid">
             <div class="w-full" style="grid-column: 1 / -1;">
                 <label><strong>Student ID:</strong></label>
-                <input type="text" value="2024-001" readonly style="background-color: #ffe0b3;">
+                <input type="text" value="2020-123" readonly style="background-color: #ffe0b3;">
             </div>
             
             <div>
