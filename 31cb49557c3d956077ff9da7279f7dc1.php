@@ -80,7 +80,7 @@
     <!-- Main Content -->
     <main>
         <div style="border-bottom: 2px solid #000; margin-bottom: 30px; padding-bottom: 10px;">
-            <h2>Welcome, Nico Mahipus</h2>
+            <h2>Welcome, Bobby Malaga</h2>
             <p>Student ID: 240000001368 | BSIT - 2nd Year</p>
         </div>
 
@@ -131,4 +131,4 @@
     </main>
 </body>
 </html>
-<?php /**PATH /Users/nico/Herd/Mahipus_Laravel/resources/views/welcome.blade.php ENDPATH**/ ?>
+<?php /**PATH /Users/Bobby Jr/Herd/Malaga_Laravel/resources/views/welcome.blade.php ENDPATH**/ ?>
