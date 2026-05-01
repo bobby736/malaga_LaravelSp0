@@ -1,4 +1,4 @@
-@extends('layout')
+@('layout')
 
 @section('content')
 <div style="border-bottom: 2px solid #ff6600; margin-bottom: 30px; padding-bottom: 10px;">
