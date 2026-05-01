@@ -2,46 +2,64 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Home Route
+/*
+|--------------------------------------------------------------------------
+| Home Route
+|--------------------------------------------------------------------------
+*/
+
 Route::get('/', function () {
     return view('home');
 })->name('home');
 
-// Student Routes
+/*
+|--------------------------------------------------------------------------
+| Student Routes
+|--------------------------------------------------------------------------
+*/
+
 Route::prefix('students')->name('students.')->group(function () {
-    // Student List Page (GET)
+
+    // List all students
     Route::get('/', function () {
         return view('students.index');
     })->name('index');
 
-    // Add Student Page (GET)
+    // Show create form
     Route::get('/create', function () {
         return view('students.create');
     })->name('create');
 
-    // Add Student Form Submission (POST)
+    // Store new student
     Route::post('/', function () {
-        return redirect()->route('students.index')->with('success', 'Student added successfully!');
+        return redirect()
+            ->route('students.index')
+            ->with('success', 'Student added successfully!');
     })->name('store');
 
-    // View Student Page (GET)
+    // Show single student
     Route::get('/{id}', function ($id) {
-        return view('students.show', ['id' => $id]);
+        return view('students.show', compact('id'));
     })->name('show');
 
-    // Edit Student Page (GET)
+    // Edit student form
     Route::get('/{id}/edit', function ($id) {
-        return view('students.edit', ['id' => $id]);
+        return view('students.edit', compact('id'));
     })->name('edit');
 
-    // Update Student Form Submission (PUT/PATCH)
+    // Update student
     Route::put('/{id}', function ($id) {
-        return redirect()->route('students.show', $id)->with('success', 'Student updated successfully!');
+        return redirect()
+            ->route('students.show', $id)
+            ->with('success', 'Student updated successfully!');
     })->name('update');
 
-    // Delete Student (DELETE)
+    // Delete student
     Route::delete('/{id}', function ($id) {
-        return redirect()->route('students.index')->with('success', 'Student deleted successfully!');
+        return redirect()
+            ->route('students.index')
+            ->with('success', 'Student deleted successfully!');
     })->name('destroy');
+
 });
 
